@@ -1,7 +1,7 @@
 
 # conan-electric-fence
 
-[Conan.io](https://conan.io) package for ZLIB library
+[Conan.io](https://conan.io) package for Eletric Fence library
 
 The packages generated with this **conanfile** can be found in [conan.io](https://conan.io/source/electric-fence/2.2.0/lasote/stable).
 
