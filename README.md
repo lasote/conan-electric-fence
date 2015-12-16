@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/lasote/conan-electric-fence.svg)](https://travis-ci.org/lasote/conan-electric-fence)
-
 
 # conan-electric-fence
 
