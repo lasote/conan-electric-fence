@@ -4,7 +4,7 @@ from conans.tools import download, unzip, replace_in_file
 from conans import CMake
 
 
-class ZlibConan(ConanFile):
+class ElectricFenceConan(ConanFile):
     name = "electric-fence"
     version = "2.2.0"
     branch = "master"
