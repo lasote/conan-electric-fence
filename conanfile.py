@@ -16,6 +16,12 @@ class ElectricFenceConan(ConanFile):
     exports = ["CMakeLists.txt"]
     url="http://github.com/lasote/conan-electric-fence"
 
+    def config(self):
+        try: # Try catch can be removed when conan 0.8 is released
+            del self.settings.compiler.libcxx
+        except: 
+            pass
+
     def source(self):
         zip_name = "%s.zip" % self.branch
         download("https://github.com/lasote/electric-fence/archive/%s" % zip_name, zip_name)
