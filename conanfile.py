@@ -15,6 +15,7 @@ class ElectricFenceConan(ConanFile):
     default_options = "shared=False"
     exports = ["CMakeLists.txt"]
     url="http://github.com/lasote/conan-electric-fence"
+    license="GNU GENERAL PUBLIC LICENSE Version 2"
 
     def config(self):
         try: # Try catch can be removed when conan 0.8 is released
