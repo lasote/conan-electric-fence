@@ -21,6 +21,7 @@ env:
     - CONAN_GCC_VERSIONS=5.3
     - CONAN_GCC_VERSIONS=5.4
     - CONAN_GCC_VERSIONS=6.2
+    - CONAN_GCC_VERSIONS=6.3
 
 install:
   - ./.travis/install.sh
